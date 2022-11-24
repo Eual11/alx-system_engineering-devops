@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #6-stop_me_if_you_can
 
-pkill -9 -f "7-highlander"
+pkill -15 -f "100-process_and_pid_file"
