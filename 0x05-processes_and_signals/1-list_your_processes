@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#print inf about the running process
+
+ps -euH
