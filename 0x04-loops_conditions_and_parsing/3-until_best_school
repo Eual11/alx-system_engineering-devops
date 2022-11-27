@@ -2,7 +2,7 @@
 #until loop bash
 # shellcheck disable=SC2004
 counter=0
-until [ $counter -eq 9 ]; 
+until [ $counter -eq 10 ]; 
 do
 	echo "Best School"
 	counter=$(($counter+1))
