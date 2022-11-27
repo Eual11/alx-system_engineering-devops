@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#bash for loop
+
+msg="Best School"
+
+for i in $(seq 1 10)
+do
+	echo $msg
+done
