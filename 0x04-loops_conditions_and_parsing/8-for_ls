@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #for ls
 # shellcheck disable=SC2004
+# shellcheck disable=SC2012
+# shellcheck disable=SC2086
 
 for i in $(ls | cut -d '-' -f 2) 
 do
