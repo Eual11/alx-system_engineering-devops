@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#fizz buzz
+# shellcheck disable=SC2004
+
+num=1
+
+while [ $num -lt 101 ]; do
+	if [ $(($num % 15)) -eq 0 ]; then
+		echo "FizzBuzz"
+	elif [ $(($num % 3 )) -eq 0 ]; then
+		echo "Fizz"
+	elif [ $(($num % 5)) -eq 0 ]; then
+		echo "Buzz"
+	else
+		echo $num
+	fi
+	((num++))
+done
