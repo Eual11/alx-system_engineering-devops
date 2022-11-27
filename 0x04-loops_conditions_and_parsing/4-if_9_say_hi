@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#if 9 say hi
+# shellcheck disable=SC2004
+
+counter=1
+while [ $counter -lt 11 ]; do
+	echo "Best School"
+	if [ $counter -eq 9 ]; then
+		echo "Hi"
+	fi
+	counter=$(($counter+1))
+done
