@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#for ls
+# shellcheck disable=SC2004
+
+for i in $(ls | cut -d '-' -f 2) 
+do
+	echo $i
+done
