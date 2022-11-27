@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# are you feeling lucky?
+# shellcheck disable=SC2004
+
+counter=1
+while [ $counter -lt 11 ];do
+	if [ $counter -ne 4 ] && [ $counter -ne 8 ]; then
+		echo "Best School"
+	elif [ $counter -eq 4 ]; then
+		echo "bad luck"
+	else
+		echo "good luck"
+	fi
+	counter=$(($counter+1))
+done
