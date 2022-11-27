@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#bash while loop
+# shellcheck disable=SC2004
+counter=0
+
+while [ $counter -lt 10 ]; do
+	echo "Best School"
+	counter=$(($counter+1))
+done
